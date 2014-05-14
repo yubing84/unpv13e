@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+Accept	server.cpp	/^Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Bind	server.cpp	/^Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+Close	server.cpp	/^Close(int fd)$/;"	f
+Listen	server.cpp	/^Listen(int fd, int backlog)$/;"	f
+MAXLINE	client.cpp	/^unsigned int const MAXLINE = 4096; \/\/ max text line length$/;"	v
+Socket	server.cpp	/^Socket(int family, int type, int protocol)$/;"	f
+Write	server.cpp	/^Write(int fd, void *ptr, size_t nbytes)$/;"	f
+bzero	client.cpp	9;"	d	file:
+main	client.cpp	/^int main(int argc, char ** argv)$/;"	f
+main	client_windows.cpp	/^void main(int argc, char **argv)$/;"	f
+main	daytimetcpcli.c	/^int main(int argc, char ** argv)$/;"	f
+main	daytimetcpsrv.c	/^int main(int argc, char ** argv)$/;"	f
+main	server.cpp	/^int main(int argc, char **argv)$/;"	f
